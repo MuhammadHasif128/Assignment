@@ -4,6 +4,16 @@ javascript + bootstrap
 
 homepage, history, f1 drivers, information, sign up
 
+display flex is to make it horizontal
+
+justify content is to align it
+
+navbar - academy logo -
+
+https://looka.com/s/91321962 - website logo
+
+https://www.w3schools.com/css/css3_images.asp
+
 nav ul li a{
   font-size: 16px;
   text-decoration: none;
