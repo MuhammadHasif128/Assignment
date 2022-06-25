@@ -5,6 +5,17 @@
   transition: 3s ease;
 }
 
+body{
+  border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source:
+    linear-gradient(
+      60deg,
+      #b16ec4,
+      #5f97b9);
+}
+
 header{
   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1552849397-7a2d7864a9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
   height: 100vh;
