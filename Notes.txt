@@ -1,0 +1,31 @@
+list, table, forms, nav, hyperlink, pictures & video, display flex, youtube channel, kranji go kart, core values, quizzes & interactive, max verstappen t shirts for free if sign up
+
+javascript + bootstrap
+
+homepage, history, f1 drivers, information, sign up
+
+path to get to f1 in f1 history, yt channel, free merch inside training information, prices, discounted etc, do tables onn schedule and merch prices
+
+upload video on training page on how f1 drivers train
+
+the javascript try to make quizzes under contact us, leave this late
+
+talk about what formula 1 is about etc. sportsmanship, teamwork, money
+
+about talk about your passion, how f1 got u to recruit ppl frm sg. ur xbox channel
+
+contact put all ur socials, sign up special and yt channel too
+
+display flex is to make it horizontal
+
+justify content is to align it
+
+navbar - academy logo - 
+
+https://looka.com/s/91321962 - website logo
+
+https://www.w3schools.com/css/css3_images.asp
+
+https://webdeasy.de/en/top-css-buttons-en/
+
+
