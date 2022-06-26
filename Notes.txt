@@ -24,6 +24,8 @@ display flex is to make it horizontal
 
 justify content is to align it
 
+TALK ABOUT THE JUNIOR CATEGORIES, F3, KARTS, F2
+
 navbar - academy logo - 
 
 https://looka.com/s/91321962 - website logo
