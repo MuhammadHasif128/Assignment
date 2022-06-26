@@ -14,13 +14,10 @@ body{
       60deg,
       #b16ec4,
       #5f97b9);
-}
-
-header{
-  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(https://awol.junkee.com/wp-content/uploads/2019/09/The-Singapore-Formula-1-night-race-ends-with-a-bang-with-spectacular-fireworks-over-the-Marina-Bay-copy.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(https://awol.junkee.com/wp-content/uploads/2019/09/The-Singapore-Formula-1-night-race-ends-with-a-bang-with-spectacular-fireworks-over-the-Marina-Bay-copy.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 ul{
