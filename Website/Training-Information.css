@@ -6,9 +6,6 @@
 }
 
 body{
-  border: solid;
-  border-image-slice: 1;
-  border-width: 5px;
   border-image-source:
     linear-gradient(
       60deg,
