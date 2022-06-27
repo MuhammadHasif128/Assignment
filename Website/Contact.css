@@ -102,6 +102,7 @@ form{
 
 .contact-form h1{
   margin-bottom: 10px;
+  padding: 20px;
 }
 
 .contact-form h1:hover{
@@ -157,6 +158,27 @@ form{
 }
 
 .contact-form-btn:hover{
+  color: gold;
+}
+
+.clear-field-btn{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #8e2de2;
+  color: #fff;
+  text-transform: full-width;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Century Gothic;
+  transition: 0.2s ease;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.clear-field-btn:hover{
   color: gold;
 }
 
