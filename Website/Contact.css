@@ -96,16 +96,18 @@ form{
   top: 55%;
   left: 22%;
   margin-top: 5px;
-  padding-top: 10px;
   font-size: 30px;
   font-weight: 700;
   color: white;
   -webkit-text-stroke: 2px black;
+  font-style: italic;
 }
 
 .contact-map h1:hover{
   background-color: white;
   color: gold;
+  transition: 1s ease;
+  transform: rotate(5deg);
 }
 
 .contact-map iframe{
