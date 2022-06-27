@@ -38,4 +38,6 @@ https://webdeasy.de/en/top-css-buttons-en/
 
 https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css/
 
+https://freefrontend.com/css-arrows/#animated-arrows
+
 
