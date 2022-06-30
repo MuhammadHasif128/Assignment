@@ -49,6 +49,7 @@ nav img{
   color: #fff;
   text-decoration: none;
   font-size: 22px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .nav-links ul li::after{
@@ -89,6 +90,11 @@ nav img{
   font-weight: bold;
 }
 
+.text-box a{
+  font-style: italic;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
 .red{
   color: #EE4B2B;
   transition: 0.5s;
@@ -127,7 +133,6 @@ p{
 .sign-up-btn:hover{
   border: 1px solid #f44336;
   background: gold;
-  color: black;
   transition: 0.1s;
 }
 
@@ -151,7 +156,7 @@ nav .fa{
 
   .nav-links{
     position: absolute;
-    background: #f44336;
+    background: rgb(244,115,54);
     height: 100vh;
     width: 200px;
     top: 0;
