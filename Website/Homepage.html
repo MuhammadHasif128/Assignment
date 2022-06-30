@@ -1,31 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="Homepage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="Homepage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/74bc4cc0bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-------Homepage------->
+  <section class="header">
     <nav>
-      <div class="main">
-        <div class="academy-logo">
-          <img src="Academy Logo.png" alt="acdemy-logo">
-        </div>
-          <ul>
-            <li class="active"><a href="Homepage.html" target="_blank">Homepage</a></li>
-            <li><a href="About.html" target="_blank">About Us</a></li>
-            <li><a href="History.html" target="_blank">History of F1</a></li>
-            <li><a href="Training-Information.html" target="_blank">Training Information</a></li>
-            <li><a href="Contact.html" target="_blank">Contact Us</a></li>
-          </ul>
+       <a href="Homepage.html"><img src="Academy Logo.png" alt="Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="Homepage.html">Homepage</a></li>
+           <li><a href="About.html" target="_blank">About Us</a></li>
+           <li><a href="History.html" target="_blank">History Of F1</a></li>
+           <li><a href="Training-Information.html" target="_blank">Training Information</a></li>
+           <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+         </ul>
       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </nav>
-      <div class="title">
-        <h1 class="slogan">"ACHEIVE THE IMPOSSIBLE"</h1>
-        <h1><span class="HASIF-ACADEMY">HASIF</span> <span class="F1">F1</span> <span class="HASIF-ACADEMY">ACADEMY</span></h1>
-      </div>
-      <button type="button"><a class="sign-up" href="Sign-Up.html" target="_blank">Sign Up Now!</a></button>
+<div class="text-box">
+  <h1><span class="not-red">HASIF</span> <span class="red">F1</span> <span class="not-red">ACADEMY</span></h1>
+  <p>Achieve The Impossible With The VERY FIRST Singapore F1 Academy.<br> WE ARE looking for the next <span class="red">F1 Talent</span> In Singapore!</p>
+  <a href="Sign-Up.html" class="sign-up-btn">Sign Up Now!</a>
+</div>
+
+</section>
+
+<!-------- Vision, Mission, Values --------->
+
+<section class="header-things">
+  <h1>Why Hasif <span>F1</span> Academy?</h1>
+  <p class="values">Our Vision, Mission, Values</p>
+
+  <div class="row">
+    <div class="header-things-col">
+      <h3>Our Vision</h3>
+      <hr>
+      <p>To provide Singaporeans with a dream in racing in the highest open-wheel-single-seater a chance in landing a seat in the sport of F1!
+      <p>All racing license will be provided from all the license class, step by step, to get to your final destination, F1.</p>
+      <p>We cater to your goals and needs here at <br> Hasif F1 Academy!</p>
     </div>
-  </body>
+    <div class="header-things-col">
+      <h3>Our Mission</h3>
+      <hr>
+      <p>At Hasif F1 Academy, we have connections with Former F1 World Champions such as <br> <a href="https://en.wikipedia.org/wiki/Nico_Rosberg" target="_blank">Nico Rosberg</a>, <a href="https://en.wikipedia.org/wiki/Jenson_Button" target="_blank">Jenson Button</a>, <a href="https://en.wikipedia.org/wiki/Fernando_Alonso" target="_blank">Fernando Alonso</a> who have agreed to coach those that sign up with us!</p>
+      <p> We have amazing facilities at KF1 Karting Circuit, to build your foundation well as well as friendly trainers that will make the environment such a friendly one to grow as a potential racing driver!</p>
+    </div>
+    <div class="header-things-col">
+      <h3>Our Values</h3>
+      <hr>
+      <p>We are dedicated to providing equal chances to everyone that signed up and treating every customer with the outmost respect.
+      <p>We are always pushing the limits here, and we NEVER GIVE UP!</p>
+      <p>Lastly, we strive to achieve the Impossible!</p>
+    </div>
+  </div>
+</section>
+
+
+<!------- KF1 Circuit ------>
+
+
+<section class="F1-Facility">
+  <h1>Our <span>Racing</span> Academy Facility</h1>
+  <p>KF1 Karting Circuit</p>
+  <div class="row">
+    <div class="F1-Facility-col">
+      <img src="https://scontent.fsin15-2.fna.fbcdn.net/v/t1.6435-9/52880683_2160975603925484_1609274879457099776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=31tUAqnn4nEAX_tedo4&_nc_ht=scontent.fsin15-2.fna&oh=00_AT_XhzfP-7K_MTLRgOR0djFB3bTcN1HdjHwYfhB2ZSa9Ww&oe=62E32976" alt="kf1-photo">
+      <div class="layer">
+        <h3>Our Go-Karts!</h3>
+      </div>
+    </div>
+    <div class="F1-Facility-col">
+      <img src="http://www.burnpavement.com/upload/image/1415782111_full-track.jpg" alt="kf1-photo">
+      <div class="layer">
+        <h3>Our Track Layout!</h3>
+      </div>
+    </div>
+    <div class="F1-Facility-col">
+      <img class="third-photo" src="https://static.mothership.sg/1/2021/08/Screenshot-2021-08-17-at-11.07.02-AM.png" alt="kf1-photo">
+      <div class="layer">
+        <h3>Night Events!</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Javascript For Toggle Menu--------->
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
 </html>

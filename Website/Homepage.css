@@ -1,57 +1,27 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: Century Gothic;
-  transition: 3s ease;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: 5s ease;
 }
 
-body{
-  border-image-source:
-  linear-gradient(
-      60deg,
-      #b16ec4,
-      #5f97b9);
-  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1552849397-7a2d7864a9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+.header{
+  min-height: 100vh;
   width: 100%;
-  height: 100vh;
-  align-items: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://images.unsplash.com/photo-1552849397-7a2d7864a9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
-ul{
-  float: right;
-  list-style-type: none;
-  margin-top: 25px;
-  padding-top: 25px;
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-ul li{
-  display: inline-block;
-}
-
-ul li a{
-  text-decoration: none;
-  color: #fff;
-  padding: 5px 20px;
-  border: 1px solid #fff transparent;
-  transition: 0.6s ease;
-  font-size: 20px;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-}
-
-ul li a:hover{
-  background-color: #fff;
-  color: #000;
-}
-
-ul li.active a{
-  background-color: #fff;
-  color: #000;
-}
-
-.academy-logo img{
+nav img{
   padding-top: 45px;
   padding-bottom: 45px;
   float: left;
@@ -61,121 +31,307 @@ ul li.active a{
   cursor: pointer;
 }
 
-.main{
-  max-width: 1200px;
-  margin: auto;
+.nav-links{
+  flex: 1;
+  text-align: right;
 }
 
-.title{
+.nav-links ul li{
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s ease;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+.text-box{
+  width: 90%;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  cursor: pointer;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-box h1{
+  font-size: 80px;
+  font-weight: bold;
   font-style: oblique;
 }
 
-.slogan{
-  font-family: Alternate Gothic;
-  font-style: italic;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-}
-
-.slogan:hover{
-  color: gold;
-}
-
-.title h1{
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 18px;
   color: #fff;
-  font-size: 60px;
-  word-spacing: 10px;
-  white-space: nowrap;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.F1{
-  color: rgba(227, 27, 27, 0.99);
-}
-
-.F1:hover{
-  color: #fff;
-}
-
-.HASIF-ACADEMY:hover{
-  color: rgba(227, 27, 27, 0.99);
-}
-
-button{
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 10px;
-}
-
-button a{
-  text-decoration: none;
-  font-size: 20px;
-  color: gold;
   font-weight: bold;
 }
 
-button:before{
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+.red{
+  color: #EE4B2B;
+  transition: 0.5s;
+}
+
+.red:hover{
+  color: white;
+}
+
+.not-red{
+  color: gold;
+  transition: 0.5s;
+}
+
+.not-red:hover{
+  color: white;
+}
+
+p{
+  font-style: italic;
+}
+
+.sign-up-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sign-up-btn:hover{
+  border: 1px solid #f44336;
+  background: gold;
+  color: black;
+  transition: 0.1s;
+}
+
+nav .fa{
+  display: none;
+}
+
+@media(max-width: 700px){
+  .text-box h1{
+    font-size: 50px;
+  }
+  .nav-links ul li{
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .nav-links ul li a:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .nav-links{
     position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-button:active{
-    color: #000
-}
-
-button:active:after{
-    background: transparent;
-}
-
-button:before{
-    opacity: 1;
-}
-
-button:after{
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
     top: 0;
-    border-radius: 10px;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  i{
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul{
+    padding: 30px;
+  }
 }
 
-@keyframes glowing{
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+/*---- Vision, Mission, Values ---- */
+
+.header-things{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header-things span:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+.header-things p{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.values:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.header-things h1:hover{
+  color: gold;
+  transition: 0.5s;
+}
+
+p{
+  color: #777;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-things-col{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.header-things-col p{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header-things-col a{
+  text-decoration: none;
+  color: red;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.header-things-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+}
+
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+
+/*-------KF1 Circuit------*/
+
+.F1-Facility{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.F1-Facility:hover h1{
+  color: gold;
+  transition: 0.5s;
+}
+
+.F1-Facility span:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+.F1-Facility p{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.F1-Facility p:hover{
+  color: red;
+  transition: 0.1s;
+}
+
+.F1-Facility-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.F1-Facility-col img{
+  width: 100%;
+  height: 100%;
+}
+
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover{
+  background: rgba(240,230,140, 0.5);
+}
+
+.layer h3{
+  font-family: Century Gothic;
+  width: 100%;
+  font-weight: bold;
+  color: #black;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer:hover h3{
+  bottom: 49%;
+  opacity: 1;
 }
