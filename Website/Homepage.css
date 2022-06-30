@@ -101,7 +101,7 @@ nav img{
 
 .flag{
   position: absolute;
-  padding-top: 12px;
+  padding-top: 20px;
   right: 0;
   left: 0;
   font-size: 50px;
@@ -145,12 +145,13 @@ p{
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  padding: 12px 34px;
+  padding: 15px 36px;
   font-size: 13px;
   background: transparent;
   position: relative;
   cursor: pointer;
   font-weight: bold;
+  margin-top: 15px;
 }
 
 .sign-up-btn:hover{
