@@ -391,6 +391,7 @@ h3{
   padding: 25px;
   cursor: pointer;
   display: flex;
+  transition: 0.1s ease;
 }
 
 .testimonial-col img{
