@@ -410,9 +410,12 @@ h3{
   text-align: left;
 }
 
-.testimonial-col h3:hover{
-  color: gold;
-  transition: 0.1s;
+.Verstappen:hover{
+  color: blue;
+}
+
+.Vettel:hover{
+  color: green;
 }
 
 .testimonial-col i{
