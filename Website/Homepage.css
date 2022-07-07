@@ -399,6 +399,7 @@ h3{
   margin-right: 30px;
   width: auto;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .testimonial-col p{
@@ -408,6 +409,7 @@ h3{
 .testimonial-col h3{
   margin-top: 15px;
   text-align: left;
+  font-style: oblique;
 }
 
 .Verstappen:hover{
