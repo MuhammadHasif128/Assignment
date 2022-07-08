@@ -431,6 +431,8 @@ h3{
 
 .testimonial-col i{
   color: #f44336;
+  font-style: oblique;
+  font-size: 15px;
 }
 
 .testimonials h1:hover{
