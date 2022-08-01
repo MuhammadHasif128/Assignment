@@ -248,6 +248,7 @@ nav .fa{
 .values:hover{
   text-shadow: 2px 2px 8px red;
   word-spacing: 1px;
+  transition: 0.1s ease;
 }
 
 .header-things h1{
